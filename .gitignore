@@ -23,4 +23,5 @@ yarn-error.log*
 
 **/.vscode/*
 **/.idea/*
-*.log*.zip
+*.log
+*.zip
