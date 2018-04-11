@@ -1,0 +1,7 @@
+**/node-modules/*
+**/src/*
+*.log
+*.zip
+**/.vscode/*
+**/.idea/*
+**/__test__/*
