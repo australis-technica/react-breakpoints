@@ -1,7 +1,7 @@
 import * as React from "react";
 import { createStore, combineReducers } from "redux";
 import { Provider } from "react-redux";
-import { WithBreakpoints, store as rbp } from "@australis/react-breakpoint";
+import { WithBreakpoints, store as rbp } from "@australis/react-breakpoints";
 /** */
 const store = createStore(
   combineReducers({

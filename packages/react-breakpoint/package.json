@@ -1,7 +1,7 @@
 {
-  "name": "@australis/react-breakpoint",
+  "name": "@australis/react-breakpoints",
   "version": "0.1.0-0",
-  "description": "TODO:",
+  "description": "react redux media breakpoints",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -9,7 +9,9 @@
     "build": "tsc -p . && npm run pack",
     "pack": "webpack-cli --config=./config/webpack.config.js --mode production"
   },
-  "keywords": [],
+  "keywords": [
+    "react","redux", "breakpoint"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -28,5 +30,9 @@
     "react": "^16.3.1",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {}
 }
