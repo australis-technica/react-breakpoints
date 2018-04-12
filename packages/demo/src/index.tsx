@@ -1,4 +1,5 @@
 import * as React from "react";
+import * as ReactDOM from "react-dom";
 import { createStore, combineReducers } from "redux";
 import { Provider } from "react-redux";
 import { WithBreakpoints, store as rbp } from "@australis/react-breakpoints";
@@ -31,5 +32,7 @@ class App extends React.Component {
     );
   }
 }
-
-export default App;
+ReactDOM.render(
+  <App />,
+  document.getElementById("root") as HTMLElement
+);
