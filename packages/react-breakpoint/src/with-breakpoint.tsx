@@ -3,7 +3,8 @@ import { connect } from "react-redux";
 import { selectors, State, STORE_KEY } from "./store";
 import subscribe from "./listener";
 import { Component, ComponentType } from "react";
-const propTypes = require("prop-types");
+
+import * as propTypes from "prop-types";
 /** */
 export type PublicProps = {
   children(windowState: State): React.ReactNode;  
